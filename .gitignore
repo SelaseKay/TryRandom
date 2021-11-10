@@ -1,5 +1,8 @@
 node_modules/
 .expo/
+.expo-shared/
+.vscode/
+assets/
 dist/
 npm-debug.*
 *.jks
@@ -12,3 +15,4 @@ web-build/
 
 # macOS
 .DS_Store
+constants.js

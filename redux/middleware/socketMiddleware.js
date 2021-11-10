@@ -1,8 +1,9 @@
 import { io } from "socket.io-client";
+import { serverUrl } from "../../constants";
 import { toggleSocketConnection, addNewMessage } from "../reducers/socketSlice";
 
 
-const socket = io('http://192.168.43.229:3000')
+const socket = io(serverUrl)
 
 export default socketMiddleware = storeApi => next => action => {
 
